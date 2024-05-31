@@ -1,0 +1,11 @@
+pip install yahoo_fin
+
+//For sesssion
+
+
+If you have added/updated table in any models.py file, you might need to migrate the db before running the server.
+
+Run below commands before running 'python manage.py runserver':
+
+python manage.py migrate
+python manage.py makemigrations 
